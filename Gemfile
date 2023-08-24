@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.1.7.4'
+gem 'rails', '6.1.7.5'
 # Use pg as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -20,14 +20,14 @@ gem 'sidekiq', '7.0.8'
 # Use Active Model has_secure_password
 gem 'bcrypt', '3.1.13'
 gem 'jwt', '2.2.1'
-gem 'jquery-rails', '4.5.0'
+gem 'jquery-rails', '4.5.1'
 gem 'elasticsearch', '7.17.1'
-gem 'searchkick', '5.0.3'
+gem 'searchkick', '5.0.4'
 gem 'google-id-token', '1.4.2'
 gem 'browser', '5.1.0'
 gem 'aws-sdk-s3', '1.83.2'
 gem 'rack-cors','1.1.1'
-gem 'versioncake', '4.1.0'
+gem 'versioncake', '4.1.1'
 gem 'lsuuid', '0.1.0'
 gem 'shortuuid', '0.5.0'
 
