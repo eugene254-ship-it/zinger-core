@@ -16,7 +16,7 @@ gem 'jbuilder', '~> 2.11', '>= 2.11.2'
 # Use Redis adapter to run Action Cable in production
 gem 'redis', '4.1.4'
 gem 'redis-namespace', '1.7.0'
-gem 'sidekiq', '7.0.8'
+gem 'sidekiq', '7.1.3'
 # Use Active Model has_secure_password
 gem 'bcrypt', '3.1.13'
 gem 'jwt', '2.2.1'
