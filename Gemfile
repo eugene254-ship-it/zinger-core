@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.1.7.5'
+gem 'rails', '7.1.0'
 # Use pg as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -20,7 +20,7 @@ gem 'sidekiq', '7.1.3'
 # Use Active Model has_secure_password
 gem 'bcrypt', '3.1.13'
 gem 'jwt', '2.2.1'
-gem 'jquery-rails', '4.5.1'
+gem 'jquery-rails', '4.6.0'
 gem 'elasticsearch', '7.17.1'
 gem 'searchkick', '5.0.4'
 gem 'google-id-token', '1.4.2'
@@ -41,7 +41,7 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 4.2.0'
+  gem 'web-console', '>= 4.2.1'
   gem 'listen', '~> 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
